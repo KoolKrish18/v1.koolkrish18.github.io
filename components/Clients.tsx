@@ -1,26 +1,23 @@
-import React from 'react'
-import { InfiniteMovingCards } from './ui/infinite-moving-cards'
-import { testimonials } from '@/data'
+import React from 'react';
+import { InfiniteMovingCards } from './ui/infinite-moving-cards';
+import { Timeline } from './ui/timeline';
+import { testimonials } from '@/data';
 
 const Clients = () => {
-  return (
-    <div className='py-20' id="testimonials">
-        <h1 className='heading'>
-            Kind words from 
-            <span className='text-purple'> satisfied slients</span>
-        </h1>
-        <div className='flex flex-col items-center max-lg:mt-10'>
-              <InfiniteMovingCards
-                  items={testimonials}
-                  direction="right"
-                  speed="slow"
-              />
-              <div>
+	return (
+		<div className='py-20' id='testimonials'>
+			<h1 className='heading'>
+				A few of my
+				<span className='text-purple'> experiences</span>
+			</h1>
+			<div className='flex flex-col items-center max-lg:mt-10'>
+				{testimonials.map(({ title, content }) => (
+					// eslint-disable-next-line react/jsx-key
+					<Timeline data={[{ title, content }]} />
+				))}
+			</div>
+		</div>
+	);
+};
 
-              </div>
-      </div>
-    </div>
-  )
-}
-
-export default Clients
+export default Clients;
