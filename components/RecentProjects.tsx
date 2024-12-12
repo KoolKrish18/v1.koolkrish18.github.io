@@ -1,4 +1,4 @@
-import { projects } from '@/data';
+import { projects } from '@/data/index.tsx';
 import React from 'react';
 import { PinContainer } from './ui/3d-pin';
 import { FaLocationArrow, FaTrophy } from 'react-icons/fa';

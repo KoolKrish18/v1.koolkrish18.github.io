@@ -116,12 +116,22 @@ export const testimonials = [
 	},
 	{
 		title: '2024',
-		content: [
-			'Royal Bank of Canada Toronto, ON',
-			'Innovation Developer - Backend Engineer, OLB Support Team July 2024 - August 2024',
-			'• Developed a machine learning model that forecasts volumes of online banking app logins...',
-			'• Built and deployed final SARIMA model on Jupyter Notebooks utilizing Pandas...',
-		],
+		content: (
+			<div className='testimonial-container p-4 border rounded-lg shadow-lg'>
+				<div className='company-name text-xl font-semibold mb-2 text-blue-600'>
+					Royal Bank of Canada Toronto, ON
+				</div>
+				<div className='job-title text-lg font-medium mb-3 text-gray-800'>
+					Innovation Developer - Backend Engineer, OLB Support Team July 2024 - August 2024
+				</div>
+				<div className='job-description text-base text-gray-700 mb-2'>
+					• Developed a machine learning model that forecasts volumes of online banking app logins...
+				</div>
+				<div className='job-description text-base text-gray-700'>
+					• Built and deployed final SARIMA model on Jupyter Notebooks utilizing Pandas...
+				</div>
+			</div>
+		),
 	},
 ];
 

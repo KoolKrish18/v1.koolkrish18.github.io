@@ -1,8 +1,7 @@
 import React from 'react';
 import { InfiniteMovingCards } from './ui/infinite-moving-cards';
 import { Timeline } from './ui/timeline';
-import { testimonials } from '@/data';
-
+import { testimonials } from '../data/index.tsx';
 const Clients = () => {
 	return (
 		<div className='py-20' id='testimonials'>
