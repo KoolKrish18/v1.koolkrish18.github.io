@@ -75,7 +75,10 @@ const Hero = () => {
 						<a href='mailto:nalamkrish1@gmail.com' target='_blank'>
 							<MagicButton icon={<FaEnvelope />} />
 						</a>
-						<a href='https://github.com/koolkrish18' target='_blank'>
+						<a
+							href='https://drive.google.com/file/d/1at38vfh-W1CtTf_QIOl1Cz13tTCFz0h8/view'
+							target='_blank'
+						>
 							<MagicButton title={'Resume'} icon={<FaUpRightFromSquare />} />
 						</a>
 					</div>
