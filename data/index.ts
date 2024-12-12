@@ -15,7 +15,7 @@ export const gridItems = [
 		className: 'lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]',
 		imgClassName: 'w-full h-full',
 		titleClassName: 'justify-end',
-		img: '/b1.jpg',
+		img: '',
 		spareImg: '',
 	},
 	{
@@ -111,15 +111,17 @@ export const projects = [
 export const testimonials = [
 	{
 		title: '2024',
-		content: 'Michael Johnson',
+		content:
+			'Royal Bank of Canada Toronto, ON\nInnovation Developer - Backend Engineer, OLB Support Team July 2024 - August 2024\n• Developed a machine learning model that forecasts volumes of online banking app logins and automates resource allocation, reducing workload of various OLB support teams by 71%, saving around $360,000 annually for RBC\n• Built and deployed final SARIMA model on Jupyter Notebooks utilizing Pandas, NumPy, and Statsmodels for thorough data visualization and statistical analysis; Validated through TSM techniques such as MAE and RMSE',
 	},
 	{
 		title: '2024',
-		content: 'Michael Johnson',
-	},
-	{
-		title: '2024',
-		content: 'Michael Johnson',
+		content: [
+			'Royal Bank of Canada Toronto, ON',
+			'Innovation Developer - Backend Engineer, OLB Support Team July 2024 - August 2024',
+			'• Developed a machine learning model that forecasts volumes of online banking app logins...',
+			'• Built and deployed final SARIMA model on Jupyter Notebooks utilizing Pandas...',
+		],
 	},
 ];
 
