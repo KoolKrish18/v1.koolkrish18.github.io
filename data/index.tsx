@@ -110,106 +110,49 @@ export const projects = [
 
 export const testimonials = [
 	{
-		title: '2024',
-		content:
-			'Royal Bank of Canada Toronto, ON\nInnovation Developer - Backend Engineer, OLB Support Team July 2024 - August 2024\n• Developed a machine learning model that forecasts volumes of online banking app logins and automates resource allocation, reducing workload of various OLB support teams by 71%, saving around $360,000 annually for RBC\n• Built and deployed final SARIMA model on Jupyter Notebooks utilizing Pandas, NumPy, and Statsmodels for thorough data visualization and statistical analysis; Validated through TSM techniques such as MAE and RMSE',
-	},
-	{
-		title: '2024',
+		title: 'July 2024',
 		content: (
-			<div className='testimonial-container p-4 border rounded-lg shadow-lg'>
-				<div className='company-name text-xl font-semibold mb-2 text-blue-600'>
-					Royal Bank of Canada Toronto, ON
+			<div className='testimonial-container p-6 border-2 border-purple-500 rounded-xl shadow-lg bg-gradient-to-r from-gray-900 to-gray-800 hover:shadow-2xl transition-shadow duration-300'>
+				<div className='company-name text-2xl font-bold mb-3 text-blue-400'>
+					Royal Bank of Canada, Toronto, ON
 				</div>
-				<div className='job-title text-lg font-medium mb-3 text-gray-800'>
-					Innovation Developer - Backend Engineer, OLB Support Team July 2024 - August 2024
+				<div className='job-title text-lg font-semibold mb-4 text-gray-300'>
+					Innovation Developer - Backend Engineer, OLB Support Team
+					<span className='text-sm text-gray-400 ml-2'>July 2024 - August 2024</span>
 				</div>
-				<div className='job-description text-base text-gray-700 mb-2'>
-					• Developed a machine learning model that forecasts volumes of online banking app logins...
+				<div className='job-description text-base text-gray-400 leading-relaxed mb-2'>
+					• Developed a machine learning model that forecasts volumes of online banking app logins and
+					automates resource allocation, reducing workload of various OLB support teams by 71%, saving around
+					$360,000 annually for RBC
 				</div>
-				<div className='job-description text-base text-gray-700'>
-					• Built and deployed final SARIMA model on Jupyter Notebooks utilizing Pandas...
+				<div className='job-description text-base text-gray-400 leading-relaxed'>
+					• Built and deployed final SARIMA model on Jupyter Notebooks utilizing Pandas, NumPy, and
+					Statsmodels for thorough data visualization and statistical analysis; Validated through TSM
+					techniques such as MAE and RMSE
 				</div>
 			</div>
 		),
 	},
-];
-
-export const companies = [
 	{
-		id: 1,
-		name: 'cloudinary',
-		img: '/cloud.svg',
-		nameImg: '/cloudName.svg',
-	},
-	{
-		id: 2,
-		name: 'appwrite',
-		img: '/app.svg',
-		nameImg: '/appName.svg',
-	},
-	{
-		id: 3,
-		name: 'HOSTINGER',
-		img: '/host.svg',
-		nameImg: '/hostName.svg',
-	},
-	{
-		id: 4,
-		name: 'stream',
-		img: '/s.svg',
-		nameImg: '/streamName.svg',
-	},
-	{
-		id: 5,
-		name: 'docker.',
-		img: '/dock.svg',
-		nameImg: '/dockerName.svg',
-	},
-];
-
-export const workExperience = [
-	{
-		id: 1,
-		title: 'Frontend Engineer Intern',
-		desc: 'Assisted in the development of a web-based platform using React.js, enhancing interactivity.',
-		className: 'md:col-span-2',
-		thumbnail: '/exp1.svg',
-	},
-	{
-		id: 2,
-		title: 'Mobile App Dev - JSM Tech',
-		desc: 'Designed and developed mobile app for both iOS & Android platforms using React Native.',
-		className: 'md:col-span-2', // change to md:col-span-2
-		thumbnail: '/exp2.svg',
-	},
-	{
-		id: 3,
-		title: 'Freelance App Dev Project',
-		desc: 'Led the dev of a mobile app for a client, from initial concept to deployment on app stores.',
-		className: 'md:col-span-2', // change to md:col-span-2
-		thumbnail: '/exp3.svg',
-	},
-	{
-		id: 4,
-		title: 'Lead Frontend Developer',
-		desc: 'Developed and maintained user-facing features using modern frontend technologies.',
-		className: 'md:col-span-2',
-		thumbnail: '/exp4.svg',
-	},
-];
-
-export const socialMedia = [
-	{
-		id: 1,
-		img: '/git.svg',
-	},
-	{
-		id: 2,
-		img: '/twit.svg',
-	},
-	{
-		id: 3,
-		img: '/link.svg',
+		title: 'July 2023',
+		content: (
+			<div className='testimonial-container p-6 border-2 border-purple-500 rounded-xl shadow-lg bg-gradient-to-r from-gray-900 to-gray-800 hover:shadow-2xl transition-shadow duration-300'>
+				<div className='company-name text-2xl font-bold mb-3 text-blue-400'>
+					Royal Bank of Canada, Toronto, ON
+				</div>
+				<div className='job-title text-lg font-semibold mb-4 text-gray-300'>
+					Innovation Developer - Full Stack Engineer, Avion Rewards
+					<span className='text-sm text-gray-400 ml-2'>July 2023 - August 2023</span>
+				</div>
+				<div className='job-description text-base text-gray-400 leading-relaxed mb-2'>
+					• Automated 5+ services for RBC’s Avion Rewards app using Docker, Maven and ReadyAPI increasing
+					global test coverage by 35%
+				</div>
+				<div className='job-description text-base text-gray-400 leading-relaxed'>
+					• Created a mock API suite using WireMock and Postman, eliminating reliance on third-party vendors,
+					reducing issues in UAT and Production and improving API test accuracy by 25%
+				</div>
+			</div>
+		),
 	},
 ];
