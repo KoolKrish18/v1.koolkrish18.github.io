@@ -160,6 +160,9 @@ const config = {
         scroll:
           "scroll var(--animation-duration, 40s) var(--animation-direction, forwards) linear infinite",
       },
+      textShadow: {
+        "glow": "0 0 5px #800080, 0 0 10px #800080, 0 0 20px #800080",
+      },
     },
   },
   plugins: [

@@ -68,7 +68,7 @@ export const BentoGridItem = ({
         }}  
     >
         <div className={`${id === 6 && "flex justify-center"} h-full`}>
-            <div className="w-full h-full absolute">
+            <div className="absolute">
                 {img && (
                     <img 
                     src={img} 
@@ -140,7 +140,6 @@ export const BentoGridItem = ({
                     <MagicButton
                     title={copied ? "Email copied" : "Copy my email"}
                     icon={<IoCopyOutline/>}
-                    position="left"
                     otherClasses="bg-[#161a31"
                     handleClick={handleCopy}
                     />
